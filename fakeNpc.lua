@@ -1,3 +1,4 @@
+-- This is made to troll Rich not for public use.. please
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 local Player = game.Players.LocalPlayer
