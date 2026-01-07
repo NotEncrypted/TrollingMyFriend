@@ -14,7 +14,7 @@ Module.Start = function(target)
     character.Name = "theRReal67Noob"
     character.Animate:Destroy()
     character.HumanoidRootPart.CFrame = target.CFrame * CFrame.new(0,5,35)
-   
+    task.wait(8)
     character.Humanoid.WalkToPoint = (target.CFrame * CFrame.new(-5,0,-5)).Position
     task.wait(3)
     TextChatService:DisplayBubble(character.Head, "yo "..string.lower(target.Parent.Name))
